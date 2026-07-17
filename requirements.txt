@@ -9,3 +9,13 @@ imblearn
 scipy
 keras
 polars
+tqdm
+lightgbm
+xgboost
+catboost
+eli5
+shap
+altair
+networkx
+ipython
+vega
