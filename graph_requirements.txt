@@ -1,0 +1,45 @@
+# Graph Environment Requirements
+# For: 03_graph_models.ipynb
+# Focus: Graph Neural Networks (GraphSAGE with NeighborLoader)
+# Python: 3.11.15
+# PyTorch: 2.7.1+cu118
+
+# PyTorch Stack
+torch
+torchvision
+torchaudio
+
+# Graph Neural Networks
+torch-geometric
+
+# PyG Sparse Operations (REQUIRED for NeighborLoader)
+# Note: torch-scatter and torch-sparse MUST be installed via wheel URLs
+# They are NOT available on PyPI and must be downloaded from PyG's wheel server
+# Install with: pip install torch-scatter -f https://data.pyg.org/whl/torch-2.7.0+cu118.html
+#               pip install torch-sparse -f https://data.pyg.org/whl/torch-2.7.0+cu118.html
+# torch-scatter
+# torch-sparse
+
+# Data Processing
+numpy
+pandas
+
+# Machine Learning Utilities
+scikit-learn
+scipy
+
+# Visualization
+matplotlib
+
+# Graph Tools
+networkx
+
+# Utilities
+tqdm
+ipython
+
+# Data I/O
+pyarrow
+fastparquet
+
+altair

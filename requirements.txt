@@ -1,3 +1,16 @@
+# NOTE: This file is deprecated. Use environment-specific requirements instead:
+# 
+# For ML models (01_clean_dataset.ipynb, 02_ml_models.ipynb):
+#   pip install -r ai_requirements.txt
+#
+# For Graph Neural Networks (03_graph_models.ipynb):
+#   pip install -r graph_requirements.txt
+#
+# Or use conda environments:
+#   conda activate ./ai
+#   conda activate ./graph
+#
+# Legacy requirements (kept for reference):
 torch
 torchvision
 torchaudio
@@ -22,3 +35,5 @@ altair
 networkx
 ipython
 vega
+pyarrow
+fastparquet
