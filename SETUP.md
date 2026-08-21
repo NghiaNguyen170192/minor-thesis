@@ -35,7 +35,7 @@ conda activate graph
 jupyter notebook
 ```
 
-Then open `03_graph_models.ipynb` and select the appropriate kernel.
+Then open `03_graph_models.ipynb` (training) or `03_graph_models_result.ipynb` (metrics) and select the `graph` or `ai` kernel.
 
 ## Updating Requirements
 
