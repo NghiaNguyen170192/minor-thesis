@@ -1,6 +1,6 @@
 # AI Environment Requirements
-# For: 01_clean_dataset.ipynb and 02_ml_models.ipynb
-# Focus: Machine Learning models (Random Forest, LightGBM, XGBoost)
+# For: 01_clean_dataset.ipynb, 02_ml_models_fit.ipynb, 02_ml_models_result.ipynb
+# Focus: Machine Learning models (Random Forest, LightGBM, XGBoost, CatBoost)
 # Python: 3.14.6
 
 # Data Processing
@@ -12,7 +12,11 @@ polars
 scikit-learn
 lightgbm
 xgboost
+catboost
 imbalanced-learn
+
+# Hyperparameter tuning
+optuna
 
 # Visualization
 matplotlib
